@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get '/index', to: 'api#index'
 
+  get '/principal', to: 'api#principal'
+
   # Defines the root path route ("/")
   # root "posts#index"
 end

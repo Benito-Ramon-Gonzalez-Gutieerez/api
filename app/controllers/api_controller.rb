@@ -8,5 +8,8 @@ def index
     data = JSON.parse(response)
     @apod_data = data
 end
+def principal 
+
+end
 
 end
